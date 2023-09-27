@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d0bb40c-86f1-4b8d-b491-805ee1c22be9" name="Changes" comment="inheritance">
-      <change afterPath="$PROJECT_DIR$/src/com/ky/inheritance/CovariantReturn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ky/inheritance/MethodOverride.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ky/inheritance/SuperKeyword.java" afterDir="false" />
+    <list default="true" id="3d0bb40c-86f1-4b8d-b491-805ee1c22be9" name="Changes" comment="MethodOverride and SuperKeyword">
+      <change afterPath="$PROJECT_DIR$/src/com/ky/abstraction/AbstractDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ky/abstraction/MyDrawing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ky/inheritance/FinalMethod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ky/inheritance/FinalVariable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ky/inheritance/InstantInitBlock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,9 +44,22 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.SuperKeyword">
-    <configuration name="Aggregation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ky.inheritance.Aggregation" />
+  <component name="RunManager" selected="Application.MyDrawing">
+    <configuration name="AbstractDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ky.abstraction.AbstractDemo" />
+      <module name="Java12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ky.abstraction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FinalMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ky.inheritance.FinalMethod" />
       <module name="Java12" />
       <extension name="coverage">
         <pattern>
@@ -56,8 +71,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CovariantReturn" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ky.inheritance.CovariantReturn" />
+    <configuration name="FinalVariable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ky.inheritance.FinalVariable" />
       <module name="Java12" />
       <extension name="coverage">
         <pattern>
@@ -69,8 +84,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Hierarchical" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ky.inheritance.Hierarchical" />
+    <configuration name="InstantInitBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ky.inheritance.InstantInitBlock" />
       <module name="Java12" />
       <extension name="coverage">
         <pattern>
@@ -82,25 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodOverride" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ky.inheritance.MethodOverride" />
+    <configuration name="MyDrawing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ky.abstraction.MyDrawing" />
       <module name="Java12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ky.inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SuperKeyword" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ky.inheritance.SuperKeyword" />
-      <module name="Java12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ky.inheritance.*" />
+          <option name="PATTERN" value="com.ky.abstraction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,11 +112,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.SuperKeyword" />
-        <item itemvalue="Application.CovariantReturn" />
-        <item itemvalue="Application.MethodOverride" />
-        <item itemvalue="Application.Aggregation" />
-        <item itemvalue="Application.Hierarchical" />
+        <item itemvalue="Application.MyDrawing" />
+        <item itemvalue="Application.AbstractDemo" />
+        <item itemvalue="Application.FinalMethod" />
+        <item itemvalue="Application.FinalVariable" />
+        <item itemvalue="Application.InstantInitBlock" />
       </list>
     </recent_temporary>
   </component>
@@ -133,7 +135,9 @@
       <workItem from="1695288951225" duration="90000" />
       <workItem from="1695367612019" duration="1982000" />
       <workItem from="1695540858203" duration="2191000" />
-      <workItem from="1695627644495" duration="1453000" />
+      <workItem from="1695627644495" duration="1557000" />
+      <workItem from="1695714579841" duration="1000000" />
+      <workItem from="1695799738548" duration="2115000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1695195171851</created>
@@ -170,7 +174,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695543071487</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="MethodOverride and SuperKeyword">
+      <created>1695629204650</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695629204650</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +205,8 @@
     <MESSAGE value="constructor,static,this" />
     <MESSAGE value="this keyword" />
     <MESSAGE value="inheritance" />
-    <option name="LAST_COMMIT_MESSAGE" value="inheritance" />
+    <MESSAGE value="MethodOverride and SuperKeyword" />
+    <option name="LAST_COMMIT_MESSAGE" value="MethodOverride and SuperKeyword" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Java12$MethodOverloading.ic" NAME="MethodOverloading Coverage Results" MODIFIED="1695197074172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
