@@ -1,12 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d0bb40c-86f1-4b8d-b491-805ee1c22be9" name="Changes" comment="MethodOverride and SuperKeyword">
-      <change afterPath="$PROJECT_DIR$/src/com/ky/abstraction/AbstractDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ky/abstraction/MyDrawing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ky/inheritance/FinalMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ky/inheritance/FinalVariable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ky/inheritance/InstantInitBlock.java" afterDir="false" />
+    <list default="true" id="3d0bb40c-86f1-4b8d-b491-805ee1c22be9" name="Changes" comment="abstract class">
+      <change afterPath="$PROJECT_DIR$/src/com/ky/abstraction/Bank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ky/abstraction/Bike.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ky/abstraction/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ky/abstraction/DefaultDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ky/abstraction/MyPrinter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ky/abstraction/NabilBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ky/abstraction/Printable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ky/abstraction/School.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ky/abstraction/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ky/abstraction/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ky/abstraction/Writeable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -17,6 +23,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -44,52 +51,13 @@
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.MyDrawing">
-    <configuration name="AbstractDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ky.abstraction.AbstractDemo" />
+  <component name="RunManager" selected="Application.Student">
+    <configuration name="DefaultDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ky.abstraction.DefaultDemo" />
       <module name="Java12" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.ky.abstraction.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FinalMethod" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ky.inheritance.FinalMethod" />
-      <module name="Java12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ky.inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FinalVariable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ky.inheritance.FinalVariable" />
-      <module name="Java12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ky.inheritance.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InstantInitBlock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ky.inheritance.InstantInitBlock" />
-      <module name="Java12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ky.inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -110,13 +78,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MyPrinter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ky.abstraction.MyPrinter" />
+      <module name="Java12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ky.abstraction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NabilBank" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ky.abstraction.NabilBank" />
+      <module name="Java12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ky.abstraction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Student" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ky.abstraction.Student" />
+      <module name="Java12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ky.abstraction.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Student" />
+        <item itemvalue="Application.NabilBank" />
+        <item itemvalue="Application.DefaultDemo" />
+        <item itemvalue="Application.MyPrinter" />
         <item itemvalue="Application.MyDrawing" />
-        <item itemvalue="Application.AbstractDemo" />
-        <item itemvalue="Application.FinalMethod" />
-        <item itemvalue="Application.FinalVariable" />
-        <item itemvalue="Application.InstantInitBlock" />
       </list>
     </recent_temporary>
   </component>
@@ -137,7 +144,8 @@
       <workItem from="1695540858203" duration="2191000" />
       <workItem from="1695627644495" duration="1557000" />
       <workItem from="1695714579841" duration="1000000" />
-      <workItem from="1695799738548" duration="2115000" />
+      <workItem from="1695799738548" duration="2840000" />
+      <workItem from="1695886216097" duration="2016000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1695195171851</created>
@@ -181,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1695629204650</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="abstract class">
+      <created>1695802016008</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1695802016008</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -206,7 +221,8 @@
     <MESSAGE value="this keyword" />
     <MESSAGE value="inheritance" />
     <MESSAGE value="MethodOverride and SuperKeyword" />
-    <option name="LAST_COMMIT_MESSAGE" value="MethodOverride and SuperKeyword" />
+    <MESSAGE value="abstract class" />
+    <option name="LAST_COMMIT_MESSAGE" value="abstract class" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Java12$MethodOverloading.ic" NAME="MethodOverloading Coverage Results" MODIFIED="1695197074172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
