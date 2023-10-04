@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d0bb40c-86f1-4b8d-b491-805ee1c22be9" name="Changes" comment="exception">
-      <change afterPath="$PROJECT_DIR$/src/com/ky/javaawt/Form.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ky/javaawt/FrameDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ky/javaawt/MyFrame.java" afterDir="false" />
+    <list default="true" id="3d0bb40c-86f1-4b8d-b491-805ee1c22be9" name="Changes" comment="awt">
+      <change afterPath="$PROJECT_DIR$/src/com/ky/javaawt/events/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ky/javaawt/events/Hello2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ky/javaawt/events/MenuBarDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,10 +45,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ky.javaawt.events" />
       <recent name="com.ky.exception" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Form">
+  <component name="RunManager" selected="Application.MenuBarDemo">
     <configuration name="Form" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ky.javaawt.Form" />
       <module name="Java12" />
@@ -62,12 +63,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FrameDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ky.javaawt.FrameDemo" />
+    <configuration name="Hello" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ky.javaawt.events.Hello" />
       <module name="Java12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ky.javaawt.*" />
+          <option name="PATTERN" value="com.ky.javaawt.events.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Hello2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ky.javaawt.events.Hello2" />
+      <module name="Java12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ky.javaawt.events.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MenuBarDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ky.javaawt.events.MenuBarDemo" />
+      <module name="Java12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ky.javaawt.events.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,39 +115,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ThrowsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ky.exception.ThrowsDemo" />
-      <module name="Java12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ky.exception.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VoterAge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ky.exception.VoterAge" />
-      <module name="Java12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ky.exception.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MenuBarDemo" />
+        <item itemvalue="Application.Hello2" />
+        <item itemvalue="Application.Hello" />
         <item itemvalue="Application.Form" />
         <item itemvalue="Application.MyFrame" />
-        <item itemvalue="Application.FrameDemo" />
-        <item itemvalue="Application.VoterAge" />
-        <item itemvalue="Application.ThrowsDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +147,8 @@
       <workItem from="1695972756595" duration="2497000" />
       <workItem from="1696147407198" duration="1209000" />
       <workItem from="1696231943640" duration="1575000" />
-      <workItem from="1696318927199" duration="1614000" />
+      <workItem from="1696318927199" duration="2521000" />
+      <workItem from="1696405376945" duration="1818000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1695195171851</created>
@@ -225,7 +227,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696233494077</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="exception">
+      <created>1696320717235</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1696320717235</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
