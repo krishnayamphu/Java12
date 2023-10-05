@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d0bb40c-86f1-4b8d-b491-805ee1c22be9" name="Changes" comment="awt">
-      <change afterPath="$PROJECT_DIR$/src/com/ky/javaawt/events/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ky/javaawt/events/Hello2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ky/javaawt/events/MenuBarDemo.java" afterDir="false" />
+    <list default="true" id="3d0bb40c-86f1-4b8d-b491-805ee1c22be9" name="Changes" comment="awt events">
+      <change afterPath="$PROJECT_DIR$/src/com/ky/javaawt/events/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -49,7 +47,20 @@
       <recent name="com.ky.exception" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MenuBarDemo">
+  <component name="RunManager" selected="Application.Calculator">
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ky.javaawt.events.Calculator" />
+      <module name="Java12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ky.javaawt.events.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Form" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ky.javaawt.Form" />
       <module name="Java12" />
@@ -102,26 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyFrame" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ky.javaawt.MyFrame" />
-      <module name="Java12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ky.javaawt.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.MenuBarDemo" />
         <item itemvalue="Application.Hello2" />
         <item itemvalue="Application.Hello" />
         <item itemvalue="Application.Form" />
-        <item itemvalue="Application.MyFrame" />
       </list>
     </recent_temporary>
   </component>
@@ -148,7 +146,8 @@
       <workItem from="1696147407198" duration="1209000" />
       <workItem from="1696231943640" duration="1575000" />
       <workItem from="1696318927199" duration="2521000" />
-      <workItem from="1696405376945" duration="1818000" />
+      <workItem from="1696405376945" duration="1941000" />
+      <workItem from="1696491732320" duration="1107000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1695195171851</created>
@@ -234,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1696320717235</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="awt events">
+      <created>1696407324851</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1696407324851</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -263,7 +269,8 @@
     <MESSAGE value="interface" />
     <MESSAGE value="package" />
     <MESSAGE value="exception" />
-    <option name="LAST_COMMIT_MESSAGE" value="exception" />
+    <MESSAGE value="awt events" />
+    <option name="LAST_COMMIT_MESSAGE" value="awt events" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Java12$MethodOverloading.ic" NAME="MethodOverloading Coverage Results" MODIFIED="1695197074172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
