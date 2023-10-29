@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d0bb40c-86f1-4b8d-b491-805ee1c22be9" name="Changes" comment="multithreading">
-      <change afterPath="$PROJECT_DIR$/src/com/ky/collections/ArrayListDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ky/collections/Book.java" afterDir="false" />
+    <list default="true" id="3d0bb40c-86f1-4b8d-b491-805ee1c22be9" name="Changes" comment="collection">
+      <change afterPath="$PROJECT_DIR$/src/com/ky/collections/CollectionSortDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ky/collections/HashSetDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ky/collections/PriorityQueueDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,9 +53,22 @@
       <recent name="com.ky.exception" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ArrayListDemo">
+  <component name="RunManager" selected="Application.CollectionSortDemo">
     <configuration name="ArrayListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.ky.collections.ArrayListDemo" />
+      <module name="Java12" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ky.collections.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CollectionSortDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ky.collections.CollectionSortDemo" />
       <module name="Java12" />
       <extension name="coverage">
         <pattern>
@@ -79,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyThread" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ky.multithreading.MyThread" />
+    <configuration name="HashSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ky.collections.HashSetDemo" />
       <module name="Java12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ky.multithreading.*" />
+          <option name="PATTERN" value="com.ky.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -92,25 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringBufferDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ky.stringhandling.StringBufferDemo" />
+    <configuration name="PriorityQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ky.collections.PriorityQueueDemo" />
       <module name="Java12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ky.stringhandling.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ThreadDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ky.multithreading.ThreadDemo" />
-      <module name="Java12" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.ky.multithreading.*" />
+          <option name="PATTERN" value="com.ky.collections.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -120,11 +121,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CollectionSortDemo" />
+        <item itemvalue="Application.HashSetDemo" />
+        <item itemvalue="Application.PriorityQueueDemo" />
         <item itemvalue="Application.ArrayListDemo" />
         <item itemvalue="Application.DigitalClock" />
-        <item itemvalue="Application.MyThread" />
-        <item itemvalue="Application.ThreadDemo" />
-        <item itemvalue="Application.StringBufferDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +160,8 @@
       <workItem from="1696923039359" duration="2923000" />
       <workItem from="1697615013374" duration="1465000" />
       <workItem from="1697701037755" duration="2187000" />
-      <workItem from="1697788348685" duration="726000" />
+      <workItem from="1697788348685" duration="908000" />
+      <workItem from="1698564866179" duration="1301000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1695195171851</created>
@@ -287,7 +289,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697703217641</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="collection">
+      <created>1697789258084</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1697789258084</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,7 +331,8 @@
     <MESSAGE value="swing" />
     <MESSAGE value="string handling" />
     <MESSAGE value="multithreading" />
-    <option name="LAST_COMMIT_MESSAGE" value="multithreading" />
+    <MESSAGE value="collection" />
+    <option name="LAST_COMMIT_MESSAGE" value="collection" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Java12$MethodOverloading.ic" NAME="MethodOverloading Coverage Results" MODIFIED="1695197074172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
