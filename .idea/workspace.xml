@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3d0bb40c-86f1-4b8d-b491-805ee1c22be9" name="Changes" comment="collection">
-      <change afterPath="$PROJECT_DIR$/src/com/ky/collections/CollectionSortDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ky/collections/HashSetDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/ky/collections/PriorityQueueDemo.java" afterDir="false" />
+    <list default="true" id="3d0bb40c-86f1-4b8d-b491-805ee1c22be9" name="Changes" comment="collections">
+      <change afterPath="$PROJECT_DIR$/data.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ky/javaio/BufferedReaderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ky/javaio/BufferedWriterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ky/javaio/FileDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ky/javaio/FileDemoFolder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ky/javaio/FileReaderDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ky/javaio/FileWriterDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ky/javaio/InputDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ky/javaio/ListFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ky/javaio/RemoveFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -53,13 +61,13 @@
       <recent name="com.ky.exception" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CollectionSortDemo">
-    <configuration name="ArrayListDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ky.collections.ArrayListDemo" />
+  <component name="RunManager" selected="Application.InputDemo">
+    <configuration name="BufferedReaderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ky.javaio.BufferedReaderDemo" />
       <module name="Java12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ky.collections.*" />
+          <option name="PATTERN" value="com.ky.javaio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -67,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CollectionSortDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ky.collections.CollectionSortDemo" />
+    <configuration name="BufferedWriterDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ky.javaio.BufferedWriterDemo" />
       <module name="Java12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ky.collections.*" />
+          <option name="PATTERN" value="com.ky.javaio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DigitalClock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ky.multithreading.DigitalClock" />
+    <configuration name="FileReaderDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ky.javaio.FileReaderDemo" />
       <module name="Java12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ky.multithreading.*" />
+          <option name="PATTERN" value="com.ky.javaio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,12 +101,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashSetDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ky.collections.HashSetDemo" />
+    <configuration name="InputDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ky.javaio.InputDemo" />
       <module name="Java12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ky.collections.*" />
+          <option name="PATTERN" value="com.ky.javaio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,12 +114,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PriorityQueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.ky.collections.PriorityQueueDemo" />
+    <configuration name="RemoveFile" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ky.javaio.RemoveFile" />
       <module name="Java12" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.ky.collections.*" />
+          <option name="PATTERN" value="com.ky.javaio.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.CollectionSortDemo" />
-        <item itemvalue="Application.HashSetDemo" />
-        <item itemvalue="Application.PriorityQueueDemo" />
-        <item itemvalue="Application.ArrayListDemo" />
-        <item itemvalue="Application.DigitalClock" />
+        <item itemvalue="Application.InputDemo" />
+        <item itemvalue="Application.BufferedReaderDemo" />
+        <item itemvalue="Application.FileReaderDemo" />
+        <item itemvalue="Application.BufferedWriterDemo" />
+        <item itemvalue="Application.RemoveFile" />
       </list>
     </recent_temporary>
   </component>
@@ -161,7 +169,8 @@
       <workItem from="1697615013374" duration="1465000" />
       <workItem from="1697701037755" duration="2187000" />
       <workItem from="1697788348685" duration="908000" />
-      <workItem from="1698564866179" duration="1301000" />
+      <workItem from="1698564866179" duration="1391000" />
+      <workItem from="1698651097513" duration="2022000" />
     </task>
     <task id="LOCAL-00001" summary="init project">
       <created>1695195171851</created>
@@ -296,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1697789258084</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="collections">
+      <created>1698566253437</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1698566253437</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -332,7 +348,8 @@
     <MESSAGE value="string handling" />
     <MESSAGE value="multithreading" />
     <MESSAGE value="collection" />
-    <option name="LAST_COMMIT_MESSAGE" value="collection" />
+    <MESSAGE value="collections" />
+    <option name="LAST_COMMIT_MESSAGE" value="collections" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Java12$MethodOverloading.ic" NAME="MethodOverloading Coverage Results" MODIFIED="1695197074172" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
